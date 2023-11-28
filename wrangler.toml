@@ -1,0 +1,6 @@
+name = "cloudflare-ai-translator-in-slack"
+main = "src/index.ts"
+compatibility_date = "2023-11-28"
+
+[ai]
+binding = "AI" # i.e. available in your Worker on env.AI

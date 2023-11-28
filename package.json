@@ -1,0 +1,19 @@
+{
+  "name": "cloudflare-ai-translator-in-slack",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231121.0",
+    "bun-types": "^1.0.14",
+    "typescript": "^5.3.2",
+    "wrangler": "3.17.1"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev --remote --port 3000",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@cloudflare/ai": "^1.0.35",
+    "slack-cloudflare-workers": "^0.8.1"
+  }
+}
